@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<title>HeteroCPP</title>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="styles/layout.css" type="text/css">
+<!--[if lt IE 9]><script src="scripts/html5shiv.js"></script><![endif]-->
+</head>
+<body>
+<div class="wrapper row1">
+  <header id="header" class="clear">
+    <div id="hgroup" style="text-align:center;">
+      <h1><b>Heterogeneous Graph Neural Networks for Unifying Textual and Programming Artifacts</b></h1>
+    </div>
+    <nav>
+      <ul>
+        <li><a style="color:#FF9900; background-color:#FFFFFF;" href="index.html">Introduction</a></li>
+        <li><a href="approach.html">Approach</a></li>
+        <!-- <li><a href="evaluation.html">Evaluation</a></li> -->
+      </ul>
+    </nav>
+  </header>
+</div>
+<!-- content -->
+<div class="wrapper row2">
+  <div id="container" class="clear">
+    <section id="slider">
+    <p>Along with code optimization, research on textual artifacts has been interesting recently. More and more research focuses on textual artifacts like natural language requirements and code documentation, which describe the properties of the software projects, commits, or documentation at the method declaration level. In this work, we focus on non-documentation code comment, which is the textual artifact that appeared inside the body of the method declaration. Compared to other types of documentation comments, non-documentation comments are used to describe properties of code at smaller scopes as statements or blocks of statements. Moreover, along with the comments, information about the surrounding code of code comment is another resource that can help in mining the properties of the implementation of code comment.</p>
+
+<p>In this work,  we analyze the abilities of Heterogeneous Graph Neural Networks to take advantage of unified representation from graphs of both code comments and their surrounding context. The intuition of our work is to analyze the performance of the combination of Abstract Syntax Tree in programming language and statistical parse tree in natural language for program analysis. From the dataset SPoC of C/C++ code snippets with code comments about the hidden implementation of a statement, our first prediction task is to find the type of statement of the unseen implementation using code comments. In our second prediction task, we further extend your HGT model to support Neural Machine Translation to automatically identify the compiler errors without running the C/C++ compiler. Our experiment shows that our classification models achieve <b>78.44&#37; and 74.53&#37;</b> accuracy for two prediction tasks. We significantly outperform the traditional homogeneous GNN models, random forest models, and deep learning LSTM models.</p>
+    <p>The replication package of HeteroCPP is avaiable at <a href="https://tinyurl.com/2p8w6ybp">this site</a>.</p>
+    </section>
+  </div>
+</div>
+<!-- footer -->
+<div class="wrapper row3">
+  <footer id="footer" class="clear">
+    <p class="fl_left">Copyright &copy; 2018 - All Rights Reserved - <a href="#">Domain Name</a></p>
+    <p class="fl_right">Template by <a target="_blank" href="https://www.os-templates.com/" title="Free Website Templates">OS Templates</a></p>
+  </footer>
+</div>
+</body>
+</html>
